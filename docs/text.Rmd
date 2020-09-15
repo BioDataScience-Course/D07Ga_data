@@ -10,3 +10,54 @@ knitr::opts_chunk$set(echo = TRUE)
 SciViews::R
 ```
 
+# Analyse de texte
+
+La phrase ci-dessous est une phrase qui fait partie d'une introduction d'un étudiant.
+
+```{r}
+txt <- "L'étude porte sur les variations morphologiques des fleurs de trois espèces d'iris que sont **Iris setosa** Pall. ex Link (1820) , **Iris versicolor** L. (1753) et **Iris virginica** L.. Ces espèces appartiennent à la famille des Iridaceae. Ces trois espèces se développent dans des milieux humides."
+```
+
+> Combien de caractères comprend ce paragraphe ? Commentez en 2 lignes maximum la fonction utilisée. 
+
+```{r}
+
+```
+
+> L'étudiant qui a rédigé ce paragraphe a mal utilisé la syntaxe Markdown. Le nom des espèces est en gras alors qu'elle aurait du être en italique. Corrigez cette erreur. Commentez en 2 lignes maximum les expressions régulières utilisées. 
+
+```{r italc_bold}
+txt <- 
+```
+
+> Combien d'espèces sont citées dans l'introduction ? (On ne s'intéresse donc qu'aux mots en italique).Commentez en 2 lignes maximum l'expression régulière utilisée. 
+
+```{r}
+
+```
+
+> Extrayez les mots en italique de ce paragraphe. Assignez votre résultat à la variable `sp`. Commentez en 2 lignes maximum la fonction et l'expressions régulières utilisées. 
+
+```{r}
+sp <- 
+```
+
+## ADN
+
+Vous avez à votre disposition le segment d'ADN ci-dessous.
+
+```{r}
+set.seed(42)
+adn <- paste(sample(c("A", "T", "C", "G"), 1000, replace = TRUE), collapse = "")
+
+adn
+```
+> Localisez et dénombrez le codon "AGA" dans la séquence ADN ci-dessus. Commentez votre  Commentez en 2 lignes maximum la function employée et l'expression régulière utilisée. 
+
+```{r}
+
+```
+
+
+
+

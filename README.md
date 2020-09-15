@@ -6,7 +6,7 @@ Cette séance d'exercices est en cours de développement. N'hésitez pas à vér
 
 ## Objectifs
 
-Ce projet est un projet **court** et **cadré**. Ce dernier doit être terminé pour la fin du module 1.
+Ce projet est un projet **court** et **cadré**. Ce dernier doit être terminé pour la fin du module 7.
 
 - Au sein du fichier `date.Rmd`, complétez les zones manquantes. Ce fichier se trouve dans le dossier `docs`.
 
