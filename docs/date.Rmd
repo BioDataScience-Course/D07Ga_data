@@ -10,3 +10,41 @@ knitr::opts_chunk$set(echo = TRUE)
 SciViews::R()
 ```
 
+> Utilisez la fonction la plus judicieuse afin de convertir le vecteur de date suivant : 
+
+```{r}
+time <- c(
+  "10/10/2009", "12/11/2009", "13-12-2009", 
+  "15:1:2010")
+```
+
+```{r}
+
+```
+
+> Utilisez la fonction la plus judicieuse afin de convertir ce vecteur en un vecteur de date. Attention ces dates ont été prise dans le fuseau horaire de  "Europe/Amsterdam". Commentez votre résultat.  
+
+```{r}
+time <- c(
+  "10/10/2009 19:39/15", "12/11/2009 19:50", "13-12-2009 19:30:25", 
+  "15:1:2010 19h45m25")
+```
+
+```{r}
+
+```
+
+> Quelle est la différence entre le fuseau CET et le fuseau CEST. 
+
+> Importez les données provenant du jeu de données coral.rds. Utilisez la fonction adéquate.
+
+```{r}
+coral <- ___
+```
+
+> Réalisez un graphique de la masse squelettique des coraux au cours du temps et en utilisant la couleur pour différencier chaque individu. Commentez votre résulat. Assurez vous d'avoir la date dans le bon format.
+
+```{r}
+
+```
+
