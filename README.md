@@ -2,7 +2,7 @@
 
 ## Avant-propos
 
-Cette séance d'exercices est en cours de développement. N'hésitez pas à vérifier le lien suivant afin de voir les modifications dans les consignes : https://github.com/BioDataScience-Course/sdd4_module07
+Cette séance d'exercices est en cours de développement. N'hésitez pas à vérifier le lien suivant afin de voir les modifications dans les consignes : https://github.com/BioDataScience-Course/D07Ga_data
 
 ## Objectifs
 
