@@ -1,0 +1,24 @@
+---
+title: "Variables circulaires"
+author: '...'
+date: "..."
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+SciViews::R
+library(circular)
+```
+
+Le jeu de données `urchins` contient une variable `maturity` qui représente le degré de maturité des gonades de l'oursin violet (0 = vide, 1 = en croissance, 2 = mature). Analysez cette variable, et comparer les oursins provenant du milieu naturel et d'élevage, sachant qu'ils ont été prélevés aux mêmes dates.
+
+```{r}
+urchins <- read("urchin_bio", package = "data.io")
+head(urchins)
+```
+
+<!--
+Décrivez vos données, transformez la variable `maturity` en variable circulaire, faites un graphique pertinent et analysez ces données pour déterminer si une différence existe entre les deux sous-populations d'oursins. Commentez et tirez des conclusions en 2 ou 3 paragraphes.
+-->
+
